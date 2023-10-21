@@ -1,0 +1,135 @@
+/* Header Styles */
+.header {
+    background-color: #6e1f1f;
+    color: rgb(2, 2, 2);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.school-seal {
+    width: 100px; 
+    height: 100px; 
+    margin-right: 10px; 
+}
+
+.school-name {
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.school-info, .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+}
+
+.school-seal, .department-seal, .student-council-seal, .additional-seal {  /* might get rid of this */
+    width: 100px; 
+    height: 100px; 
+    margin-bottom: 10px; 
+}
+
+.text-placeholder {
+    font-weight: normal;
+}
+
+.menu {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    width: 0; 
+    box-sizing: border-box;
+    overflow: hidden; 
+    transition: width 0.5s; 
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%; 
+}
+
+.menu-item:hover {
+    background-color: #777c82; 
+    box-shadow: 0 0 10px #5c6269; 
+    transition: background-color 0.3s, box-shadow 0.1s; 
+}
+
+.menu-link {
+    color: white; 
+    text-decoration: none; 
+}
+
+.menu.menu-closed .menu-item {
+    pointer-events: none;
+}
+
+.menu-expanded {
+    width: 300px; 
+}
+
+.menu-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.close-button {
+    background-color: #333; 
+    color: white;
+    border: none;
+    padding: 0; 
+    cursor: pointer;
+    width: 100%; 
+    text-align: center; 
+    font-size: 24px; 
+}
+
+.close-button:hover {
+    background-color: #333; 
+}
+
+.toggle-button {
+    cursor: pointer;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.box {
+    border: 2px solid #333;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+    background-color: #dedede;
+    margin: 20px;
+}
+
+.placeholder {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.text-placeholder {
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+html, body {
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    background: linear-gradient(to bottom, #702323, #9f3d3d, #b34b4b, #c15d5d, #e67f7f, #fd9999, #ffc0c0);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
