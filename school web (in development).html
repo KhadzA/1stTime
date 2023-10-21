@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+    <link rel="stylesheet" type="text/css" href="schoolweb.css">
+</head>
+<body>   
+    <div class="header">
+        <!-- school seal omage -->
+        <a href="https://www.facebook.com/ZamboangaCityStatePolytechnicCollege">
+        <img src="C:\Users\al-khazri alim\Downloads\ZPPSU_seal.png" alt="School Seal" class="school-seal">
+        </a>
+        <!-- school name -->
+        <h1 class="school-name">ZAMBOANGA PENINSULA POLYTECHNIC STATE UNIVERSITY</h1>
+    </div>  
+
+    <div class="menu menu-closed">
+        <button class="close-button" onclick="toggleMenu()">☰</button>
+        <a href="https://www.facebook.com/AlKhazriAlim" class="menu-link" id="menu-link">ALIM, AL-KHAZRI S.</a>
+        <div class="menu-item" id="menu-item-1">Another Option</div>
+        <div class="menu-item" id="menu-item-2">Yet Another Option</div>
+    </div>
+    
+    <div class="box-container">
+        <div class="box">
+            <!-- department seal image -->
+            <a href="https://www.facebook.com/zppsucics">
+            <img src="C:\Users\al-khazri alim\Downloads\CICS_seal.png" alt="Department Seal" class="department-seal">
+            </a>
+            <!-- department text -->
+            <p class="text-placeholder">Department of Information and Computing Science</p>
+        </div>
+    
+        <div class="box">
+            <!-- student image -->
+            <a href="https://www.facebook.com/zppsu.cicsstudentorg">
+            <img src="C:\Users\al-khazri alim\Downloads\ICCSO_seal.png" alt="Student Council Seal" class="student-council-seal">
+            </a>
+            <!-- student text -->
+            <p class="text-placeholder">Information and Computing Sciences Student Organization</p>
+        </div>
+        
+        <div class="box">
+            <!-- additional image -->
+            <a href="https://www.facebook.com/ZPPSUAdmissions">
+            <img src="C:\Users\al-khazri alim\Downloads\ZPPSU_admission.png" alt="Additional Seal" class="additional-seal">
+            </a>
+            <!--text -->
+            <p class="text-placeholder">ZPPSU Admissions Office</p>
+        </div>
+    </div>    
+
+    <script>
+        var menu = document.querySelector('.menu');
+        var links = document.querySelectorAll('.menu-link, .menu-item');
+        for (var i = 0; i < links.length; i++) {
+            links[i].style.pointerEvents = 'none';
+        }
+        document.querySelector('.menu-link').style.color = 'transparent';
+
+        function toggleMenu() {
+            menu.classList.toggle('menu-expanded');
+            if (menu.classList.contains('menu-expanded')) {
+                for (var i = 0; i < links.length; i++) {
+                    links[i].style.pointerEvents = 'auto';
+                }
+                document.querySelector('.menu-link').style.color = 'white';
+            } else {
+                for (var i = 0; i < links.length; i++) {
+                    links[i].style.pointerEvents = 'none';
+                }
+                document.querySelector('.menu-link').style.color = 'transparent';
+            }
+        }
+    </script>
+    
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyBS4d0I0e7vZ2EZLk2w7pkVnYoDXtTW-0g",
+          authDomain: "idonotknoe.firebaseapp.com",
+          projectId: "idonotknoe",
+          storageBucket: "idonotknoe.appspot.com",
+          messagingSenderId: "29599238884",
+          appId: "1:29599238884:web:52eb890a2471d7b4fcbaf1",
+          measurementId: "G-G3ENS15NNE"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+      
+</body>
+</html>
