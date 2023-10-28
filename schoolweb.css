@@ -164,9 +164,8 @@ body {
 
 @media only screen and (max-width: 600px) and (orientation: landscape) {
     body {
-        background: linear-gradient(to right, #702323, #9f3d3d, #b34b4b, #c15d5d, #e67f7f, #fd9999, #ffc0c0);
+        background: linear-gradient(to bottom, #702323, #9f3d3d, #b34b4b, #c15d5d, #e67f7f, #fd9999, #ffc0c0);
         height: 100vmax;
-        width: 100vmax;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
