@@ -15,7 +15,18 @@ body {
 }
 
 .first-paper {
+    position: relative;
     margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #000;
+}
+
+.profile-pic {
+    width: 2in;
+    height: 2in;
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
 
 .second-paper {
@@ -75,16 +86,6 @@ body {
 
 .basic-info a.email-address:hover {
     cursor: pointer;
-}
-
-.profile-pic {
-    width: 2in;
-    height: 2in;
-    position: absolute;
-    top: 50px;
-    right: 250px;
-    margin-right: 23%;
-    margin-left: 30px;
 }
 
 .objective {
