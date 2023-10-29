@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #24a5f9, #147fc7, #034792, #003c7b);
+}
+
+.page-background {
+    background-color: white; /* Paper color */
+    width: 210mm;
+    height: 297mm;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
+.first-paper {
+    margin-bottom: 20px;
+}
+
+.second-paper {
+    margin-bottom: 20px;
+}
+
+.basic-info {
+    text-align: left;
+    margin-left: 20%;
+    margin: 25px;
+}
+
+.basic-info a {
+    cursor: text;
+}
+
+.basic-info h1 {
+    margin: 0;
+}
+
+.first-paper .resume hr {
+    border: 1px solid #000; 
+    height: 0; 
+    margin: 20px 0;
+}
+
+.second-paper .resume hr {
+    border: 1px solid #000; 
+    height: 0; 
+    margin: 20px 0;
+}
+
+.name {
+    text-decoration: none;
+    color: inherit;
+}
+
+.basic-info a.name:hover {
+    cursor: pointer;
+}
+
+.email-address {
+    text-shadow: #000;
+    color: rgb(78, 225, 176);
+    cursor: pointer;
+}
+
+.basic-info a.email {
+    text-decoration: none;
+    color: inherit;
+    cursor: text;
+}
+
+.basic-info a.email:hover {
+    cursor: text;
+}
+
+.basic-info a.email-address:hover {
+    cursor: pointer;
+}
+
+.profile-pic {
+    width: 2in;
+    height: 2in;
+    position: absolute;
+    top: 50px;
+    right: 40px;
+    margin-right: 23%;
+    margin-left: 30px;
+}
+
+.objective {
+    margin: 20px;
+}
+
+.personal-info {
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    color: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+td {
+    padding: 5px;
+    text-align: left;
+}
+
+td:first-child {
+    width: 30%; 
+    font-weight: bold;
+}
+
+.skill {
+    margin: 20px;
+}
+
+.personal-skill {
+    margin: 20px;
+}
+
+.educ-background hr{
+    border: 0;
+    height: 1px;
+    background: #000;
+    margin: 20px 0;
+}
+
+.educ-background {
+    margin: 20px;
+}
+
+.educ-background a {
+    color: #000000; 
+    text-decoration: none; 
+}
+
+.educ-background a:hover {
+    color: #34abc9; 
+    text-decoration: underline; 
+    text-shadow: #000000;
+}
+
+
+.work-exp {
+    margin: 20px;
+}
