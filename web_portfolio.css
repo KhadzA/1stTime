@@ -58,7 +58,6 @@ footer {
 
 .swiper-container {
   width: 100%;
-  height: 50px;
   background-color: #333;
   display: flex;
   align-items: center;
@@ -161,22 +160,25 @@ a:hover {
 
 .project-info {
   flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .floating-text {
   position: absolute;
   top: 0;
-  left: 10vw; 
-  pointer-events: none; 
-  opacity: 0.5; 
+  left: 10vw;
+  pointer-events: none;
+  opacity: 0.5;
   transition: opacity 0.3s ease-in-out;
-  font-size: 1vw; 
+  font-size: 1vw;
   color: #fff;
-  background-color: rgba(51, 51, 51, 0.7); 
+  background-color: rgba(51, 51, 51, 0.7);
   padding: 0.5%;
   border-radius: 5px;
   visibility: hidden;
   cursor: pointer;
+  margin-top: 2%;
 }
 
 .project:hover .floating-text {
