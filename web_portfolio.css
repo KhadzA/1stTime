@@ -418,10 +418,6 @@ h5 {
     cursor: pointer;
   }
   
-  .project:hover .floating-text {
-    visibility: visible;
-  }
-  
   .contact-info {
     display: flex;
     flex-direction: column;
@@ -662,10 +658,6 @@ h5 {
     border-radius: 5px;
     visibility: hidden;
     cursor: pointer;
-  }
-  
-  .project:hover .floating-text {
-    visibility: visible;
   }
   
   .contact-info {
