@@ -39,6 +39,7 @@ nav ul li a {
   text-decoration: none;
   padding: 1%;
   font-weight: 900;
+  font-size: 20px;
 }
 
 nav ul li a:hover {
@@ -67,7 +68,7 @@ footer {
 }
 
 .swiper-slide {
-  font-size: large; 
+  font-size: 30px; 
   height: 40px;
   padding: 10px 20px;
   display: flex;
@@ -168,6 +169,10 @@ a:hover {
   position: relative;
 }
 
+.projects {
+  font-size: large;
+}
+
 .floating-text {
   position: absolute;
   top: 40%;
@@ -252,6 +257,14 @@ h5 {
 .colored-text {
   color: rgb(156, 85, 97);
   font-weight: bold;
+}
+
+.about {
+  font-size: 20px;
+}
+
+.work {
+  font-size: 20px;
 }
 
 @media screen and (max-width: 768px) and (orientation: portrait) {
@@ -438,7 +451,7 @@ h5 {
     display: flex;
     align-items: center;
     margin-bottom: 0%; 
-    font-size: medium;
+    font-size: 20px;
   }
   
   .contact-item img {
