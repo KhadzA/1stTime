@@ -62,7 +62,7 @@ footer {
   background-color: #333;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   overflow: hidden;
 }
 
@@ -316,9 +316,9 @@ h5 {
     background-color: #333;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     overflow: hidden;
-  }
+}
   
   .swiper-slide {
     font-size: large; 
@@ -546,9 +546,9 @@ h5 {
     background-color: #333;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     overflow: hidden;
-  }
+}
   
   .swiper-slide {
     font-size: large; 
