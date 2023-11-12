@@ -11,6 +11,7 @@ body {
   overflow: visible;
   user-select: text; 
   background-color: rgb(211, 200, 200);
+  font-size: 25px;
 }
 
 /* Header Styles */
@@ -72,6 +73,7 @@ footer {
   align-items: center;
   justify-content: flex-start;
   overflow: hidden;
+  font-size: 30px;
 }
 
 .swiper-slide {
