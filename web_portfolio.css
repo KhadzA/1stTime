@@ -4,7 +4,7 @@ body, h1, h2, h3, p, ul, li {
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium';
   line-height: 1.5;
   overflow: visible;
   user-select: text; 
@@ -261,7 +261,7 @@ h5 {
   }
   
   body {
-    font-family: Arial, sans-serif;
+    font-family: serif;
     line-height: 1.5;
     overflow: visible;
     user-select: text; 
@@ -296,6 +296,7 @@ h5 {
     text-decoration: none;
     padding: 1%;
     font-weight: 900;
+    font-size: small;
   }
   
   nav ul li a:hover {
@@ -324,7 +325,8 @@ h5 {
   }
   
   .swiper-slide {
-    font-size: large; 
+    font-size: larger; 
+    font-weight: bolder;
     height: 40px;
     padding: 10px 20px;
     display: flex;
@@ -412,6 +414,11 @@ h5 {
     position: relative;
     overflow: hidden;
     width: fit-content;
+    font-size: medium;
+  }
+
+  .projects h2{
+    font-size: large;
   }
 
   .floating-text {
@@ -422,11 +429,16 @@ h5 {
     display: flex;
     flex-direction: column;
   }
+
+  .contact h2 p{
+    font-size: large;
+  }
   
   .contact-item {
     display: flex;
     align-items: center;
     margin-bottom: 0%; 
+    font-size: medium;
   }
   
   .contact-item img {
@@ -451,6 +463,8 @@ h5 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 5vw;
+    font-weight: bold;
   }
   
   .greeting-container {
@@ -482,6 +496,10 @@ h5 {
     color: rgb(156, 85, 97);
     font-weight: bold;
   }
+
+  .about {
+    font-size: medium;
+  }
 }
 
 @media screen and (max-width: 770px) and (orientation: landscape) {
@@ -491,7 +509,7 @@ h5 {
   }
   
   body {
-    font-family: Arial, sans-serif;
+    font-family: serif;
     line-height: 1.5;
     overflow: visible;
     user-select: text; 
@@ -526,6 +544,7 @@ h5 {
     text-decoration: none;
     padding: 1%;
     font-weight: 900;
+    font-size: small;
   }
   
   nav ul li a:hover {
@@ -551,10 +570,11 @@ h5 {
     align-items: center;
     justify-content: flex-start;
     overflow: hidden;
-}
+  }
   
   .swiper-slide {
-    font-size: large; 
+    font-size: larger; 
+    font-weight: bolder;
     height: 40px;
     padding: 10px 20px;
     display: flex;
@@ -622,7 +642,7 @@ h5 {
   
   a {
     text-decoration: none; 
-    color: #94A1EF; 
+    color: #828bbc; 
     transition: color 0.3s ease-in-out; 
   }
   
@@ -642,6 +662,11 @@ h5 {
     position: relative;
     overflow: hidden;
     width: fit-content;
+    font-size: medium;
+  }
+
+  .projects h2{
+    font-size: large;
   }
 
   .floating-text {
@@ -652,11 +677,16 @@ h5 {
     display: flex;
     flex-direction: column;
   }
+
+  .contact h2 p{
+    font-size: large;
+  }
   
   .contact-item {
     display: flex;
     align-items: center;
     margin-bottom: 0%; 
+    font-size: medium;
   }
   
   .contact-item img {
@@ -681,6 +711,8 @@ h5 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 5vw;
+    font-weight: bold;
   }
   
   .greeting-container {
@@ -711,5 +743,9 @@ h5 {
   .colored-text {
     color: rgb(156, 85, 97);
     font-weight: bold;
+  }
+
+  .about {
+    font-size: medium;
   }
 }
