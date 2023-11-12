@@ -67,11 +67,14 @@ footer {
 }
 
 .swiper-slide {
-  font-size: 2vw;
-  text-align: center;
-  line-height: 40px; 
+  font-size: large; 
+  height: 40px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
   box-sizing: border-box;
   color: #fff;
+  text-align: left; 
 }
 
 #back-to-top-btn {
@@ -318,16 +321,14 @@ h5 {
     align-items: center;
     justify-content: flex-start;
     overflow: hidden;
-}
+  }
   
   .swiper-slide {
     font-size: large; 
     height: 40px;
     padding: 10px 20px;
     display: flex;
-    align-items: left;
-    justify-content: center;
-    padding-left: 2%;
+    align-items: center;
     box-sizing: border-box;
     color: #fff;
     text-align: left; 
@@ -558,8 +559,6 @@ h5 {
     padding: 10px 20px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding-left: 2%;
     box-sizing: border-box;
     color: #fff;
     text-align: left; 
