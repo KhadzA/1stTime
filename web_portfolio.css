@@ -153,27 +153,33 @@ a:hover {
 
 .project {
   position: relative;
-  overflow: hidden;
-  width: fit-content;
-  display: flex;
-  flex-direction: column;
+  margin-bottom: 2%;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
 }
 
-.project-info {
-  flex: 1;
+.project:hover {
+  transform: scale(1.01);
+}
+
+.project-content {
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
 .floating-text {
   position: absolute;
-  top: 0;
-  left: 10vw; 
-  pointer-events: none; 
-  opacity: 0.5; 
+  top: 40%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  opacity: 0.1;
   transition: opacity 0.3s ease-in-out;
-  font-size: 1vw; 
+  font-size: x-small;
   color: #fff;
-  background-color: rgba(51, 51, 51, 0.7); 
-  padding: 0.5%;
+  background-color: rgba(51, 51, 51, 0.7);
+  padding: 0.1%;
   border-radius: 5px;
   visibility: hidden;
   cursor: pointer;
