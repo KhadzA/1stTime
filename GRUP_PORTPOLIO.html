@@ -1,55 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>GRUP_PORTPOLIO</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="GRUP_PORTPOLIO.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grup Portpolio</title>
+    <link rel="stylesheet" href="KEBIN.css">
+    <script src="https://kit.fontawesome.com/4f8ef1573b.js" crossorigin="anonymous"></script>
 </head>
-
-
 <body>
-
-  <header>
-
-    <div class="container">
-      <nav>
-        <ul>
-          <li><a href="#about">ABOUT</a></li>
-          <li><a href="#teams">MEMBERS</a></li>
-          <li><a href="#why-us">WHY US</a></li>
-          <li><a href="#services">SERVICES</a></li>
-        </ul>
-      </nav>
-    </div>
-  
-    <div class="circle">
-      <img class="logoimg" src=".png">
-    </div>
-    
-  </header>  
-
-    <div class="main-title">Empowering You Through Technology Solutions</div>
-    <div class="main-description">Welcome to Ambatuhelp—your partner in overcoming technical challenges and achieving digital success. Our dedicated team provides innovative solutions to propel your business forward.</div>
-    <div class="gray-box">
-      <img class="myimg" src=".png">
+    <div class="wrapper">
+    <div id="header">
+        <img src=".png" class="background" alt="">
+        <div class="container">
+            <nav>
+                <img src="images/LUGU_2-removebg-preview.png" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Empowering You Through Technology Solutions</p>
+                <div class="desc">Welcome to Ambatuhelp—your partner in overcoming technical challenges and achieving digital success. Our dedicated team provides innovative solutions to propel your business forward.</div>
+            </div>            
+        </div>
     </div>
 
-  <div id="teams" class="section">
-    <!-- Content for MEMBERS section -->
-  </div>
+<!--ABOUT-->
 
-  <div id="about" class="section">
-    <!-- Content for ABOUT section -->
-  </div>  
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="aboutcol1">
+                    <img src=".png" alt="">
+                </div>
+                <div class="aboutcol2">
+                    <h1 class="subtitle">About Us</h1>
+                    <p></p>
+                    
+                    <div class="titles">
+                        <p class="tablink activelink" onclick="opentab('skills')">Skills(?)</p>
+                        <p class="tablink" onclick="opentab('experience')">Experience(?)</p>
+                        <p class="tablink" onclick="opentab('education')">Education(?)</p>
+                    </div>
+                    <div class="tabcontents activetab" id="skills">
+                        <ul>
+                            <li><span></span><br></li>
+                            <li><span></span><br></li>
+                            <li><span></span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="experience">
+                        <ul>
+                            <li><span></span><br></li>
+                            <li><span></span><br></li>
+                            <li><span></span><br></li>
+                            <li><span></span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="education">
+                        <ul>
+                            <li><span></span><br></li>
+                            <li><span></span><br></li>
+                            <li><span></span><br></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-  <div id="why-us" class="section">
-    <!-- Content for WHY US section -->
-  </div>
+<!--SERVICES-->
 
-  <div id="services" class="section">
-    <!-- Content for SERVICES section -->
-  </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">Services</h1>
+            <div class="serviceslist">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design(?)</h2>
+                    <p></p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design(?)</h2>
+                    <p></p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design(?)</h2>
+                    <p></p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--PORTFOLIO-->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">Our Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src=".png" alt="">
+                    <div class="layer">
+                        <h3></h3>
+                        <p></p>
+                        <a href="#"><i class="fa-solid fa-download"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src=".png" alt="">
+                    <div class="layer">
+                        <h3></h3>
+                        <p></p>
+                        <a href="#"><i class="fa-solid fa-download"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src=".png" alt="">
+                    <div class="layer">
+                        <h3></h3>
+                        <p></p>
+                        <a href="#"><i class="fa-solid fa-download"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+<!--CONTACT-->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contactleft">
+                    <h1 class="subtitle">Contact Us</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>09123456789</p>
+                    <div class="socialicons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+<!--JAVASCRIPT-->
+    <script>
+
+        var tablink = document.getElementsByClassName("tablink");
+        var tabcontents = document.getElementsByClassName("tabcontents");
+
+        function opentab(tabname){
+            for(link of tablink){
+                link.classList.remove("activelink");
+            }
+            for(content of tabcontents){
+                content.classList.remove("activetab");
+            }
+            event.currentTarget.classList.add("activelink");
+            document.getElementById(tabname).classList.add("activetab");
+        }
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
 
 </body>
 </html>
