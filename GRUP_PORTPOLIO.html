@@ -4,35 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grup Portpolio</title>
+    <title>GRUP_PORTPOLIO</title>
     <link rel="stylesheet" href="GRUP_PORTPOLIO.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <script src="https://kit.fontawesome.com/4f8ef1573b.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </head>
 <body>
-    <div class="wrapper">
+  <div class="wrapper">
     <div id="header">
-        <img src=".png" class="background" alt="">
-        <div class="container">
-            <nav>
-                <img src="https://github.com/KhadzA/1stTime/blob/main/GITHUB%20FILE/LUGU_2-removebg-preview.png?raw=true" class="logo" alt="">
-                <ul id="sidemenu">
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <i class="fa-solid fa-x" onclick="closemenu()"></i>
-                </ul>
-                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-            </nav>
-            <div class="header-text">
-                <p>Empowering You Through Technology Solutions</p>
-                <div class="desc">Welcome to Ambatuhelp—your partner in overcoming technical challenges and achieving digital success. Our dedicated team provides innovative solutions to propel your business forward.</div>
-            </div>            
-        </div>
+      <img src="images\Desktop-2BACK.png" class="background" alt="">
+      <div class="container">
+        <nav>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">Al-Khazri</div>
+                  <div class="swiper-slide">Incent</div>
+                  <div class="swiper-slide">Brendo</div>
+                  <div class="swiper-slide">Algeo</div>
+                  <div class="swiper-slide">Alquin</div>
+                </div>
+            </div>
+
+            <ul id="sidemenu">
+              <li><a href="#header">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <i class="fa-solid fa-x" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Empowering You Through Technology Solutions</p>
+          <div class="desc">Welcome to Ambatuhelp—your partner in overcoming technical challenges and achieving digital success. Our dedicated team provides innovative solutions to propel your business forward.</div>
+        </div>        
+      </div>
     </div>
 
-<!--ABOUT-->
+    <!--ABOUT-->
 
     <div id="about">
         <div class="container">
@@ -76,7 +87,7 @@
         </div>
     </div>
 
-<!--SERVICES-->
+    <!--SERVICES-->
 
     <div id="services">
         <div class="container">
@@ -104,7 +115,7 @@
         </div>
     </div>
 
-<!--PORTFOLIO-->
+    <!--PORTFOLIO-->
 
     <div id="portfolio">
         <div class="container">
@@ -139,30 +150,29 @@
         </div>
     </div>
 
-<!--CONTACT-->
+    <!--CONTACT-->
 
     <div id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="contactleft">
-                    <h1 class="subtitle">Contact Us</h1>
-                    <p><i class="fa-solid fa-paper-plane"></i>@gmail.com</p>
-                    <p><i class="fa-solid fa-phone"></i>09123456789</p>
-                    <div class="socialicons">
-                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
-                        <a href=""><i class="fa-brands fa-twitter"></i></a>
-                        <a href=""><i class="fa-brands fa-instagram"></i></a>
-                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="contactleft">
+            <h1 class="subtitle">Contact Us</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>09123456789</p>
+            <div class="socialicons">
+              <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-    </div>
+  </div>
 
 <!--JAVASCRIPT-->
     <script>
-
         var tablink = document.getElementsByClassName("tablink");
         var tabcontents = document.getElementsByClassName("tabcontents");
 
@@ -188,6 +198,21 @@
         function closemenu(){
             sidemenu.style.right = "-200px";
         }
+
+    </script>
+
+    <script>
+
+        window.addEventListener('load', function() {
+            var swiper = new Swiper('.swiper-container', {
+                direction: 'vertical',
+                loop: true,
+                autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+                },
+            });
+        }); 
 
     </script>
 
