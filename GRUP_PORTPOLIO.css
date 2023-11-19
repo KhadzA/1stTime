@@ -428,7 +428,7 @@ nav .fa-solid{
     #header{
         width: 100%;
         height: 100vh;
-        background-image: url(https://github.com/KhadzA/1stTime/blob/main/Portpolio/HD_ANDR_BG.png?raw=true);
+        background-image: url(images\HD_ANDR_BG.png.png);
         background-size: cover;
         background-position: center;
     }
@@ -547,5 +547,64 @@ nav .fa-solid{
         text-align: right;
         margin-right: 20px;
         align-items: center;
+    }
+}
+
+    /* Landscape Styles */
+@media only screen and (max-width: 900px) and (orientation: landscape) {
+    #header {
+        height: 100vh;
+        background-image: url(images\HD_DESK_BG.png);
+    }
+    
+    .header-text {
+        margin-top: 20%;
+        font-size: 16px;
+    }
+    
+    nav {
+        top: 0;
+        right: 0;
+        text-align: right;
+    }
+    
+    .subtitle {
+        font-size: 40px;
+    }
+    
+    .aboutcol1,
+    .aboutcol2 {
+        flex-basis: 100%;
+    }
+    
+    .tablink {
+        font-size: 16px;
+        margin-right: 20px;
+    }
+    
+    .contactleft,
+    .contact-right {
+        flex-basis: 100%;
+    }
+    
+    .swiper-container {
+        top: 0;
+        left: 0;
+        text-align: left;    
+        height: 30vh;
+        font-size: 10px;   
+    }
+    
+    .swiper-slide {
+        height: 10vh;
+        width: 100vh;
+        display: flex;
+        align-items: flex-start; 
+        box-sizing: border-box;
+        color: #fff;
+        text-align: left;
+        white-space: normal;
+        padding: 15px; 
+        font-size: 25px;
     }
 }
