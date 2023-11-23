@@ -6,8 +6,8 @@ body {
     height: 100vh;
     margin: 0;
     background: #000000;
-    background: -webkit-linear-gradient(to right, #000000, #434343);
-    background: linear-gradient(to right, #000000, #434343),
+    background: -webkit-linear-gradient(to right, #000000, #434343c4);
+    background: linear-gradient(to right, #000000, #4343439d),
         url("https://a.allegroimg.com/original/1e4474/36fd9fa94b228db1df209e5014ac") no-repeat center right fixed;
     background-size: 100%;
 }
