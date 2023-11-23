@@ -5,9 +5,9 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: rgb(0, 20, 36);
-    background: rgb(99,24,24);
-    background: linear-gradient(121deg, rgba(99,24,24,1) 0%, rgba(46,92,124,0.8744747899159664) 100%), url("https://github.com/KhadzA/1stTime/blob/main/GITHUB%20FILE/WUJAK.png?raw=true") no-repeat center right fixed;
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #000000, #434343);
+    background: linear-gradient(to right, #000000, #434343);
     background-size: 100%;
 }
 
