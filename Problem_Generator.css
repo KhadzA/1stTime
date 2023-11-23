@@ -5,9 +5,10 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: rgb(0, 20, 36);
-    background: rgb(99,24,24);
-    background: linear-gradient(121deg, rgba(99,24,24,1) 0%, rgba(46,92,124,0.8744747899159664) 100%), url("https://i.kym-cdn.com/entries/icons/original/000/041/895/AALIYAH_WROTE_JAY_AN_APOLOGY_LETTER%F0%9F%93%83__MARK_WANT_DESIREE_AND_HANNAH!%F0%9F%98%B1_4-32_screenshot_(1).jpg") no-repeat center right fixed;
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #000000, #434343);
+    background: linear-gradient(to right, #000000, #434343),
+        url("https://a.allegroimg.com/original/1e4474/36fd9fa94b228db1df209e5014ac") no-repeat center right fixed;
     background-size: 100%;
 }
 
