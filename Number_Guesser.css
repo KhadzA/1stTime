@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: rgb(0, 20, 36);
+    background: rgb(99,24,24);
+    background: linear-gradient(121deg, rgba(99,24,24,1) 0%, rgba(46,92,124,0.8744747899159664) 100%), url("C:/Users/al-khazri alim/Pictures/WUJAK.png") no-repeat center right fixed;
+    background-size: 100%;
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    cursor: pointer;
+}
+
+label {
+    font-size: 18px;
+    margin-right: 5px;
+    color: white;
+}
+
+input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+@media (max-width: 767px) {
+    body {
+        background-size: auto; 
+        background-position: center; 
+    }
+}
